@@ -80,7 +80,7 @@ def search_and_send_music(message):
 
 # Функция для запуска Flask в отдельном потоке
 def run_flask():
-    app.run(host='0.0.0.0', port=8080)
+    app.run(host='0.0.0.0', port=5000)
 
 # Запуск Flask в отдельном потоке
 flask_thread = Thread(target=run_flask)
