@@ -1,0 +1,8 @@
+telegram
+yt-dlp
+python-telegram-bot==20.3
+requests
+FFmpeg
+pytelegrambotapi
+pydub
+flask

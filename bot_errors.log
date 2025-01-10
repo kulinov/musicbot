@@ -1,0 +1,50 @@
+2025-01-10 08:45:43,644 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2025-01-10 08:45:43,655 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.31.196.43:8080
+2025-01-10 08:45:43,655 - INFO - [33mPress CTRL+C to quit[0m
+2025-01-10 08:45:44,005 - DEBUG - https://api.telegram.org:443 "GET /bot8040295705:AAEwkOPQnuiwVqZ_B-iCgRwQY9mP09clHJ0/getMe HTTP/1.1" 200 262
+2025-01-10 08:45:44,007 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2025-01-10 08:45:44,206 - INFO - 172.31.196.43 - - [10/Jan/2025 08:45:44] "GET / HTTP/1.1" 200 -
+2025-01-10 08:45:44,366 - DEBUG - https://api.telegram.org:443 "GET /bot8040295705:AAEwkOPQnuiwVqZ_B-iCgRwQY9mP09clHJ0/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 387
+2025-01-10 08:45:44,371 - DEBUG - Starting new HTTPS connection (1): api.telegram.org:443
+2025-01-10 08:45:44,807 - DEBUG - https://api.telegram.org:443 "POST /bot8040295705:AAEwkOPQnuiwVqZ_B-iCgRwQY9mP09clHJ0/sendMessage?chat_id=1032988839&text=%D0%98%D1%89%D1%83+%D0%BF%D0%B5%D1%81%D0%BD%D1%8E%3A+%D0%B3%D0%B8%D0%B3%D0%B8...+%D0%9F%D0%BE%D0%B4%D0%BE%D0%B6%D0%B4%D0%B8%D1%82%D0%B5+%D0%BD%D0%B5%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE+%F0%9F%8E%A7&reply_parameters=%7B%22message_id%22%3A+137%7D HTTP/1.1" 200 826
+2025-01-10 08:45:49,303 - DEBUG - subprocess.call(['ffmpeg', '-y', '-i', 'Rina & Sin boy - Gigi.webm', '-acodec', 'pcm_s32le', '-vn', '-f', 'wav', '-'])
+2025-01-10 08:45:51,471 - DEBUG - subprocess.call(['ffmpeg', '-y', '-f', 'wav', '-i', '/tmp/tmpicvonrcj', '-f', 'mp3', '/tmp/tmpdxef_0ef'])
+2025-01-10 08:45:56,657 - DEBUG - subprocess output: b'ffmpeg version 6.1.1 Copyright (c) 2000-2023 the FFmpeg developers'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'  built with gcc 13.2.0 (GCC)'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'  configuration: --disable-static --prefix=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-full-6.1.1 --target_os=linux --arch=x86_64 --pkg-config=pkg-config --enable-gpl --enable-version3 --disable-nonfree --disable-static --enable-shared --enable-pic --disable-thumb --disable-small --enable-runtime-cpudetect --enable-gray --enable-swscale-alpha --enable-hardcoded-tables --enable-safe-bitstream-reader --enable-pthreads --disable-w32threads --disable-os2threads --enable-network --enable-pixelutils --datadir=/nix/store/vw5i4jipdcljaczhab5cs3iyh57dgfij-ffmpeg-full-6.1.1-data/share/ffmpeg --enable-ffmpeg --enable-ffplay --enable-ffprobe --bindir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-full-6.1.1-bin/bin --enable-avcodec --enable-avdevice --enable-avfilter --enable-avformat --enable-avutil --enable-postproc --enable-swresample --enable-swscale --libdir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-full-6.1.1-lib/lib --incdir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-full-6.1.1-dev/include --enable-doc --enable-htmlpages --enable-manpages --mandir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-full-6.1.1-man/share/man --enable-podpages --enable-txtpages --docdir=/nix/store/eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee-ffmpeg-full-6.1.1-doc/share/doc/ffmpeg --enable-alsa --enable-libaom --disable-appkit --enable-libaribcaption --enable-libass --disable-audiotoolbox --disable-avfoundation --enable-avisynth --enable-libbluray --enable-libbs2b --enable-bzlib --enable-libcaca --enable-libcelt --enable-chromaprint --enable-libcodec2 --disable-coreimage --enable-cuda --enable-cuda-llvm --enable-cuvid --enable-libdav1d --enable-libdc1394 --enable-libdrm --disable-libfdk-aac --enable-ffnvcodec --enable-libflite --enable-fontconfig --enable-libfontconfig --enable-libfreetype --enable-frei0r --enable-libfribidi --enable-libgme --enable-gnutls --enable-libgsm --enable-libharfbuzz --enable-iconv --enable-libjack --enable-libjxl --enable-ladspa --enable-lzma --enable-libmfx --enable-libmodplug --enable-libmp3lame --enable-libmysofa --enable-nvdec --enable-nvenc --enable-openal --enable-opencl --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-opengl --enable-libopenh264 --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libplacebo --enable-libpulse --enable-librav1e --enable-librtmp --enable-libsmbclient --enable-sdl2 --enable-libshaderc --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-librsvg --enable-libsvtav1 --disable-libtensorflow --enable-libtheora --enable-libv4l2 --enable-v4l2-m2m --enable-vaapi --enable-vdpau --disable-libvpl --disable-videotoolbox --enable-libvidstab --enable-libvmaf --enable-libvo-amrwbenc --enable-libvorbis --enable-libvpx --enable-vulkan --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs --enable-libxcb --enable-libxcb-shape --enable-libxcb-shm --enable-libxcb-xfixes --enable-xlib --enable-libxml2 --enable-libxvid --enable-libzimg --enable-zlib --enable-libzmq --disable-debug --enable-optimizations --disable-extra-warnings --disable-stripping'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'  libavutil      58. 29.100 / 58. 29.100'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'  libavcodec     60. 31.102 / 60. 31.102'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'  libavformat    60. 16.100 / 60. 16.100'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'  libavdevice    60.  3.100 / 60.  3.100'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'  libavfilter     9. 12.100 /  9. 12.100'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'  libswscale      7.  5.100 /  7.  5.100'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'  libswresample   4. 12.100 /  4. 12.100'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'  libpostproc    57.  3.100 / 57.  3.100'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b'[aist#0:0/pcm_s32le @ 0x19d5380] Guessed Channel Layout: stereo'
+2025-01-10 08:45:56,658 - DEBUG - subprocess output: b"Input #0, wav, from '/tmp/tmpicvonrcj':"
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'  Duration: 00:03:36.92, bitrate: 3072 kb/s'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'  Stream #0:0: Audio: pcm_s32le ([1][0][0][0] / 0x0001), 48000 Hz, 2 channels, s32, 3072 kb/s'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'Stream mapping:'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'  Stream #0:0 -> #0:0 (pcm_s32le (native) -> mp3 (libmp3lame))'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'Press [q] to stop, [?] for help'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b"Output #0, mp3, to '/tmp/tmpdxef_0ef':"
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'  Metadata:'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'    TSSE            : Lavf60.16.100'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'  Stream #0:0: Audio: mp3, 48000 Hz, stereo, s32p'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'    Metadata:'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'      encoder         : Lavc60.31.102 libmp3lame'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'size=       0kB time=N/A bitrate=N/A speed=N/A'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'size=     256kB time=00:00:24.79 bitrate=  84.6kbits/s speed=49.5x'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'size=     512kB time=00:00:48.84 bitrate=  85.9kbits/s speed=48.8x'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'size=    1024kB time=00:01:13.75 bitrate= 113.7kbits/s speed=49.1x'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'size=    1280kB time=00:01:37.96 bitrate= 107.0kbits/s speed=  49x'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'size=    1792kB time=00:02:03.02 bitrate= 119.3kbits/s speed=49.2x'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'size=    2304kB time=00:02:27.69 bitrate= 127.8kbits/s speed=49.2x'
+2025-01-10 08:45:56,659 - DEBUG - subprocess output: b'size=    2560kB time=00:02:53.30 bitrate= 121.0kbits/s speed=49.5x'
+2025-01-10 08:45:56,660 - DEBUG - subprocess output: b'size=    3072kB time=00:03:18.38 bitrate= 126.9kbits/s speed=49.6x'
+2025-01-10 08:45:56,660 - DEBUG - subprocess output: b'[out#0/mp3 @ 0x1990b00] video:0kB audio:3390kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.006827%'
+2025-01-10 08:45:56,660 - DEBUG - subprocess output: b'size=    3390kB time=00:03:36.91 bitrate= 128.0kbits/s speed=50.3x'
+2025-01-10 08:49:48,471 - INFO - 172.31.196.43 - - [10/Jan/2025 08:49:48] "HEAD / HTTP/1.1" 200 -
